@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
+:root {
+  background-color: var(--background);
+}
+body {
+  font-family: 'Poppins';
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+
+
+
+

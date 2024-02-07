@@ -1,0 +1,30 @@
+.intro{
+    margin: 10px 0px;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.intro-image{
+    width: 400px;
+}
+.intro-text{
+    padding: 0 10px;
+    font-size: 40px;
+}
+.intro-subtext{
+    color: var(--accent);
+    display: inline;
+
+}
+.intro-font-effect{
+    display: inline;
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--text);
+    color: transparent;
+
+}
