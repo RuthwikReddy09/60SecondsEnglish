@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import Introduction from './components/Introduction'
+import Content from './components/Content'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
 
         <Introduction/>
+        <Content/>
       <Routes>
       </Routes>
     </div>
