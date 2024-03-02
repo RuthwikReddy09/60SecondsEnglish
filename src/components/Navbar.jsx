@@ -8,6 +8,7 @@ const Navbar = () => {
         <div className="links">
             <Link to="/" className='link'>Home</Link>
             <Link to="/about" className='link'>About</Link>
+            <a href="#content" className='link'>Practice</a>
             <a href="mailto:druthwik09@gmail.com" className='link' target="_top">Contact</a>
         </div>
     </div>

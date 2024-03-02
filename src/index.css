@@ -2,6 +2,8 @@
 
 :root {
   background-color: var(--background);
+  scroll-behavior: smooth;
+
 }
 body {
   font-family: 'Poppins';

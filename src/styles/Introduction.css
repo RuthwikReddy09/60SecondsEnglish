@@ -1,5 +1,5 @@
 .intro{
-    margin: 10px 0px;
+    margin: 10px 0px 30px 0px;
     width: 100%;
     min-height: 80vh;
     display: flex;
@@ -7,7 +7,26 @@
     align-items: center;
     flex-wrap: wrap-reverse;
 }
+.intro-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.intro-button{
+    background-color: var(--accent);
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: medium;
 
+}
+.intro-button:hover{
+    background-color: var(--primary);
+  }
 .intro-image{
     width: 400px;
 }
