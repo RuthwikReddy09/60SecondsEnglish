@@ -103,6 +103,7 @@ const Counter = (props) => {
           setPlaying(false);
           setResetVisible(true);
           stopRecording()
+          props.setStarted(false)
           return { shouldRepeat: false };
         }}
       >

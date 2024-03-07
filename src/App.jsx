@@ -4,8 +4,8 @@ import Navbar from './components/Navbar'
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import Introduction from './components/Introduction'
 import Content from './components/Content'
+import Footer from './components/Footer'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Router>
@@ -16,6 +16,7 @@ function App() {
         <Content/>
       <Routes>
       </Routes>
+      <Footer/>
     </div>
     </Router>
   )

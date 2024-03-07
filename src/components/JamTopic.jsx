@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "../styles/JamTopic.css"
+import video from "../../public/animation.gif"
 const JamTopic = (props) => {
     const [topic,setTopic] = useState("Tell me about yourself?")
     const jamTopics = [
@@ -113,6 +114,10 @@ const JamTopic = (props) => {
   return (
     <div className='jam-container'>
         Topic : {topic}
+        {props.started && (
+         <img src={video}/>
+        
+        )}
         <button className="random-button" onClick={generateRandomTopic} disabled={props.started}>
             Generate Random Topic
         </button>

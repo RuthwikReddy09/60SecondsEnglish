@@ -6,6 +6,7 @@
     flex-direction: column;
     width: 330px;
     margin-bottom: 10px;
+    z-index: -1;
 }
 
 .plus,.minus{
@@ -41,5 +42,6 @@
 }
 .output-audio{
     margin: 15px;
+    height: 45px;
 }
 
